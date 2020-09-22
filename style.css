@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  background: #d6d3d3;
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.card {
+  width: 300px;
+  background: white;
+  display: inline-block;
+  margin: 20px;
+}
+
+.card-bottom {
+  padding: 10px;
+}
+
+.card-bottom-left {
+  float: left;
+  text-transform: uppercase;
+}
+
+.card-bottom img {
+  width: 40px;
+  border-radius: 50%;
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+time {
+  font-weight: 300;
+}
